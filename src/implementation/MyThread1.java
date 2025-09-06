@@ -22,7 +22,7 @@ public class MyThread1 extends Thread{
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
-
+                e.printStackTrace();
             }
         }
     }
